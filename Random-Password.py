@@ -13,7 +13,7 @@ Number=chr(random.randint(48,57)) #Generate a random Number (based on ASCII code
 Symbols=chr(random.randint(33,64)) #Generate a random Symbols(based on ASCII code)
 
 #Generating the password  in random order:
-password = Uppercase + LowerCase + Number + Symbols # + ....
+password = Uppercase + LowerCase + Number + Symbols 
 password = shuffle(password)
 
 # For Printing Ouput:
